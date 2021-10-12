@@ -19,25 +19,25 @@ class PharmacienSeeder extends Seeder
         DB::table('pharmaciens')->insert([
             'nom' =>'Djoussa Sylvie',
             'metier' =>'pharmacien',
-            'photo' =>'pharmapic.jpg',
+            'photo' =>'pharmapic7.jpg',
         ]);
          
         DB::table('pharmaciens')->insert([
             'nom' =>'Severine Coulon',
             'metier' =>'pharmacien',
-            'photo' =>'pharmapic3.jpg',
+            'photo' =>'pharmapic1.jpg',
         ]);
 
         DB::table('pharmaciens')->insert([
             'nom' =>'Sandra Fernandes',
             'metier' =>'pharmacien',
-            'photo' =>'pharmapic4.jpg',
+            'photo' =>'pharmapic.jpg',
         ]);
 
         DB::table('pharmaciens')->insert([
             'nom' =>'Riad Boumadani',
             'metier' =>'pharmacien',
-            'photo' =>'pharmapic5.jpg',
+            'photo' =>'pharmapic2.jpg',
         ]);
         
         DB::table('pharmaciens')->insert([
@@ -49,7 +49,7 @@ class PharmacienSeeder extends Seeder
         DB::table('pharmaciens')->insert([
             'nom' =>'Napoléon Tuyindi',
             'metier' =>'pharmacien',
-            'photo' =>'pharmapic2.jpg',
+            'photo' =>'pharmapic3.jpg',
         ]);
         
         

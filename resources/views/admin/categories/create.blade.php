@@ -3,7 +3,11 @@
 
   @section('content')
 
-  <h1 class="text-center">Ajouter la nouvelle catégorie</h1>
+  <div class="card mt-4" style="width:20rem;">
+    <div class="card-body">
+        <h3 class="text-center text-success font-weight-bold">Nouvelle catégorie</h3>  
+    </div>
+</div>
     <div class="container my-5">
 
        <form  method="POST" action="{{route('admin.categories.store')}}">

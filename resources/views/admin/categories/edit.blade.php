@@ -1,9 +1,12 @@
 @extends('admin.template')
-@section('h1')
-   Catégorie à modifier: {{$categorie->name}}
-@endsection
-   
+ 
   @section('content')
+
+    <div class="card mt-4" style="width:20rem;">
+        <div class="card-body">
+            <h3 class="text-center text-success font-weight-bold">Modifier la catégorie</h3>  
+        </div>
+    </div>
    <div class="container my-5">
 
        <form  method="POST" action="{{route('admin.categories.update',$categorie->id)}}">
@@ -23,9 +26,7 @@
         </form>
 
 
-       
-
-   </div>
+    </div>
       
   @endsection
     

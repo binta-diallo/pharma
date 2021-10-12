@@ -2,13 +2,14 @@
 
 @section('content')
 
-
-<div>
-    <h1 class="text-center">Listes des Catégories</h1>
+<div class="card mt-4" style="width:20rem;">
+    <div class="card-body">
+        <h3 class="text-center text-success font-weight-bold">Listes des Catégories</h3>  
+    </div>
 </div>
 
 <!--j'ajoute un msg de confirmation -->
-@if (session('success'))
+    @if (session('success'))
         <div class="alert alert-warning text-center alert-dismissible fade show" role="alert" id="alert">
             {{ session('success') }}
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
@@ -27,7 +28,7 @@
     @endif
 
 
-<div class="d-flex justify-content-end align-items-center">
+<div class="d-flex justify-content-end align-items-center mb-3">
     <a href="{{route('admin.categories.create')}}" class="btn btn1">Nouvelle catégorie</a>
 
 </div>

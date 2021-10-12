@@ -3,7 +3,7 @@
     <div class="container py-4">
       <header class="pb-3 mb-4 border-bottom">
 
-       <span class="fs-4">Site de Meaux</span>
+       <span class="fs-4" id="site">Pharmacie du GHEF_Site de meaux</span>
       </header>
   
       <div class="p-5 mb-4 bg-light rounded-3">
@@ -15,24 +15,21 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active" data-bs-interval="10000">
-                <img src="{{asset('img/medoc.jpg')}}" class="d-block w-100" alt="image de médicaments" height="800px">
+                <img src="{{asset('img/automate.jpg')}}" class="img-fluid" alt="image de médicaments">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>First slide label</h5>
-                  <p>Some representative placeholder content for the first slide.</p>
+                  <h5>Automate du site de Meaux</h5>
                 </div>
               </div>
               <div class="carousel-item" data-bs-interval="2000">
-                <img src="{{asset('img/medoc2.jpg')}}" class="d-block w-100" alt="image de médicaments" height="800px">
+                <img src="{{asset('img/automate.jpg')}}" class="img-fluid" alt="image de médicaments">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Second slide label</h5>
-                  <p>Some representative placeholder content for the second slide.</p>
+                  <h5>Automate du site de Meaux</h5>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="{{asset('img/medoc3.jpg')}}" class="d-block w-100" alt="image de médicaments" height="800px">
+                <img src="{{asset('img/automate.jpg')}}" class="img-fluid" alt="image de médicaments">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
-                  <p>Some representative placeholder content for the third slide.</p>
+                  <h5>Automate du site de Meaux</h5>
                 </div>
               </div>
             </div>
@@ -46,8 +43,7 @@
             </button>
           </div>
       </div>
-  
+
       
-  
   </main>
   

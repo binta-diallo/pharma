@@ -12,7 +12,7 @@ class Categoriecontroller extends Controller
 {  
     public function __constuct()
     {
-        $this->middleware(["auth","admin"]);
+        $this->middleware(["auth"]);
 
     }
     /**

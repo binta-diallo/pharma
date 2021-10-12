@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <title>pharmacie</title>
 </head>
@@ -14,9 +16,10 @@
 
 
     
-    <footer class="footer mt-auto py-3 bg-info container-fluid">
-        <div class="container">
-         
+    <footer class="footer mt-auto py-3 bg-info container-fluid" >
+        <div class="container" id="footer">
+            <button type="button" class="btn btn-light"><a href="{{route('admin.home')}}" class="admin">Accès réservé</a></button>
+            <h6>@ Tous droits réservé_GHEF site de Meaux</h6>
         </div>
     </footer>
 

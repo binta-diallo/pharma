@@ -1,39 +1,65 @@
-body{
-   
-    font-family: 'Titillium Web', sans-serif;
+    body{
+        margin:0;
+        padding:0;
+        height: 100vh;
+        font-family: 'Titillium Web', sans-serif;
+        
+    }
+    #carouselExampleDark{
+    width: 70%;
+    margin: 0 auto;
+    }
+    #footer{
+       
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+       
+    }
     
-}
 
-#section1{
-   background: radial-gradient(ellipse at top, #350bf394, transparent),
-    radial-gradient(ellipse at bottom, #08e0aa73, transparent);
-}
-svg{
-    color: rgba(29, 104, 245, 0.65);
-    size: 1.5rem;
-}
-
-#top,#top1,#top2{
-    margin-top: 30px;
-}
-
-.nav-link{
-   font-size: 18px;
-}
-.nav-link:hover,.dropdown-item:hover{
-    background-color: rgba(90, 190, 185, 0.178);
-    text-decoration-line: underline;
-    border-radius: 2px;
-    transition: 0.5ms;
-}
-.dropdown-menu{
-    box-shadow: 10px 5px 5px rgba(56, 132, 231, 0.178);
-}
-
-#tab{
+    #section1{
     background: radial-gradient(ellipse at top, #350bf394, transparent),
-    radial-gradient(ellipse at bottom, #08e0aa73, transparent);
-}
-#card-tab{
-    margin-top: 100px;
-}
+        radial-gradient(ellipse at bottom, #08e0aa73, transparent);
+    }
+    #site{
+        color: rgb(8, 189, 189);
+        font-weight: bolder;
+    }
+    .admin{
+        text-decoration: none;
+        color: black;
+        font-weight: bolder;
+        
+    }
+    svg{
+        color: rgba(29, 104, 245, 0.65);
+        size: 1.5rem;
+    }
+
+    #top,#top1,#top2{
+        margin-top: 30px;
+    }
+
+    .nav-link{
+    font-size: 18px;
+    font-weight: bolder;
+    
+    }
+    .nav-link:hover,.dropdown-item:hover{
+        background-color: rgba(90, 190, 185, 0.178);
+        text-decoration-line: underline;
+        border-radius: 2px;
+        transition: 0.5ms;
+    }
+    .dropdown-menu{
+        box-shadow: 10px 5px 5px rgba(56, 132, 231, 0.178);
+    }
+
+    #tab{
+        background: radial-gradient(ellipse at top, #350bf394, transparent),
+        radial-gradient(ellipse at bottom, #08e0aa73, transparent);
+    }
+    #card-tab{
+        margin-top: 100px;
+    }

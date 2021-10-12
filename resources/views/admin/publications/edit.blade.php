@@ -7,15 +7,14 @@
 @endsection
 
     @section('content')
+
     <div class="card mt-4" style="width:20rem;">
     <div class="card-body">
-        <h3 class="text-center text-success font-weight-bold">Nouvelle publication</h3>  
+        <h3 class="text-center text-success font-weight-bold">Modifier la publication</h3>  
     </div>
 </div>
-
-
      <div class="container">
-         <form action="{{route('admin.publications.store')}}" method="POST" enctype="multipart/form-data">
+         <form action="{{route('admin.publications.update',$publication->id)}}" method="POST" enctype="multipart/form-data">
              @csrf
              <div class="form-group">
                  <label for="title">Titre</label>
@@ -61,8 +60,3 @@
     </div>
     
 @endsection
-
-   
-       
-   
-
